@@ -8,6 +8,7 @@ import {
 
 import Home from './containers/Home';
 import Following from './containers/Following';
+import VideoPlayback from './containers/VideoPlayback';
 
 import './App.css';
 
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route exact path="/following/">
               <Following />
+            </Route>
+            <Route exact path="/videos/:id/playback">
+              <VideoPlayback />
             </Route>
           </Switch>
         </Content>

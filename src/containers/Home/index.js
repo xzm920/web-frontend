@@ -3,7 +3,7 @@ import Main from '../../components/Main';
 function Home() {
   return (
     <Main>
-      My Homepage
+      <h2>My Homepage</h2>
     </Main>
   );
 }
